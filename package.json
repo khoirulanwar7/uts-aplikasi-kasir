@@ -1,6 +1,7 @@
 {
   "name": "uts",
   "version": "1.0.0",
+  "homepage": "https://github.com/khoirulanwar7/uts-aplikasi-kasir.git",
   "description": "",
   "main": "index.js",
   "scripts": {
