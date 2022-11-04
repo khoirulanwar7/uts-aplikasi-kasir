@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS 2</title>
+    <link rel="stylesheet" href="/dist/output.css">
+  </head>
+
+  <body class="bg-slate-300 flex">
+    
+      <div class="flex items-center justify-center min-w-full mt-28 lg:mt-20">
+      <div class=" w-3/5 lg:flex lg:items-center lg:justify-center lg:space-x-4">
+        <div class="bg-white w-full shadow-md rounded-lg">
+          <div class="py-4 lg:py-10 px-3 text-center">
+            <h1 class="text-xl font-sans font-semibold ">Toko Khoirul</h1>
+          </div>
+          <div class="py-2 px-4 mb-1">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Barang</label>
+            <input type="text" name="" id="barang" placeholder="Masukan Nama Barang"
+              class="shadow bg-slate-100 rounded appearance-none border py-2 px-3 w-full text-gray-700 leading-tight focus:outline-none">
+          </div>
+          <div class="py-2 px-4 mb-3">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Harga</label>
+            <input type="number" name="" id="harga" placeholder="Masukan Harga Barang"
+              class="shadow bg-slate-100 rounded appearance-none border py-2 px-3 w-full text-gray-700 leading-tight focus:outline-none">
+          </div>
+          <div class="py-2 px-4 mb-3">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Jumlah</label>
+            <input type="number" name="" id="jumlah" placeholder="Masukan Jumlah Barang"
+              class="shadow bg-slate-100 rounded appearance-none border py-2 px-3 w-full text-gray-700 leading-tight focus:outline-none">
+          </div>
+          <div class="py-2 px-4 mb-5">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Pembayaran</label>
+            <input type="number" name="" id="bayar" placeholder="Masukan jumlah Pembayaran"
+              class="shadow bg-slate-100 rounded appearance-none border py-2 px-3 w-full text-gray-700 leading-tight focus:outline-none">
+          </div>
+        </div>
+
+        <div class="bg-white w-full shadow-md rounded-lg mb-5 lg:mb-0">
+          <div class="py-4 px-3 text-center">
+            <h1 class="text-xl font-sans font-semibold ">Nota Pembayaran</h1>
+          </div>
+          <div class="py-2 px-4 mb-1">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Total</label>
+            <textarea id="total" rows="4"
+              class="block w-full h-10 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+              ></textarea>
+          </div>
+          <div class="py-2 px-4 mb-3">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Diskon</label>
+            <textarea id="diskon" rows="4"
+              class="block w-full h-10 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"></textarea>
+          </div>
+          <div class="py-2 px-4 mb-3">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Total Pembayaran</label>
+            <textarea id="totalPembayaran" rows="4"
+              class="block w-full h-10 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"></textarea>
+          </div>
+          <div class="py-2 px-4 mb-5">
+            <label for="" class="block text-gray-700 text-md font-bold mb-2">Kembalian</label>
+            <textarea id="kembalian" rows="4"
+              class="block w-full h-10 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"></textarea>
+          </div>
+          <div class="mb-3 text-center pb-3">
+            <button
+              class="rounded-md bg-blue-500 text-base font-semibold font-sans hover:bg-blue-600 transition duration-300 text-white py-2 px-5" onclick="hasil()">Add</button>
+            <button
+              class="rounded-md bg-red-500 text-base font-semibold font-sans hover:bg-red-600 transition duration-300 text-white py-2 px-5 " onclick="hapus()" >Delete</button>
+          </div>
+        </div> 
+      </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+
+</html>
